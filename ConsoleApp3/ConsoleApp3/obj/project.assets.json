@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Memory.dll.x64/1.2.24": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Memory.dll.x86/1.2.24": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Memory.dll.x64/1.2.24": {
+      "sha512": "fjpioQZXMFn5OoFJ2nPqhokBT0OMzH59PMiol0wP0TF0v3XL3cRFwgu/4C9tvwEs1Qxv5WeHcjw6S+z2zgpvRQ==",
+      "type": "package",
+      "path": "memory.dll.x64/1.2.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.txt",
+        "icon.png",
+        "lib/netstandard2.0/Memory.dll",
+        "lib/netstandard2.0/Memory.xml",
+        "memory.dll.x64.1.2.24.nupkg.sha512",
+        "memory.dll.x64.nuspec"
+      ]
+    },
+    "Memory.dll.x86/1.2.24": {
+      "sha512": "y14dnRubBqGJ3Dx/9Mi8AEkKA6cmHpyBhsyrxg4wPDLsJW3DiC42opJQvyJSkCK/XhNKPFi45WX6FLpxUGWd8Q==",
+      "type": "package",
+      "path": "memory.dll.x86/1.2.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.txt",
+        "icon.png",
+        "lib/netstandard2.0/Memory.dll",
+        "lib/netstandard2.0/Memory.xml",
+        "memory.dll.x86.1.2.24.nupkg.sha512",
+        "memory.dll.x86.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Memory.dll.x64 >= 1.2.24",
+      "Memory.dll.x86 >= 1.2.24"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vds\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vds\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectName": "ConsoleApp3",
+      "projectPath": "C:\\Users\\vds\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "packagesPath": "C:\\Users\\vds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vds\\source\\repos\\ConsoleApp3\\ConsoleApp3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Memory.dll.x64": {
+            "target": "Package",
+            "version": "[1.2.24, )"
+          },
+          "Memory.dll.x86": {
+            "target": "Package",
+            "version": "[1.2.24, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

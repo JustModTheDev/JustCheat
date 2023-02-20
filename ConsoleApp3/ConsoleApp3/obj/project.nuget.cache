@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UG46/M1mkxz6OCVI0dwWmn+EDgN1ODVs4RGXjdhJgyQXc3d2koSYQdbmILAGBd0qsQxUU+1YUAl99OyWjYy4OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vds\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vds\\.nuget\\packages\\memory.dll.x64\\1.2.24\\memory.dll.x64.1.2.24.nupkg.sha512",
+    "C:\\Users\\vds\\.nuget\\packages\\memory.dll.x86\\1.2.24\\memory.dll.x86.1.2.24.nupkg.sha512"
+  ],
+  "logs": []
+}
